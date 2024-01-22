@@ -6,7 +6,7 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 function Header({theme, back}) {
   return (
     <div>
-      <header>
+      <header style={{background: 'linear-gradient(' + (theme === 'dark' ? '#000A13' : '#77D6B4') + ' 60%, transparent)'}}>
         { back ? <Back></Back> : <div></div> }
         <Logo theme={theme}></Logo>
       </header>
