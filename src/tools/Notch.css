@@ -8,7 +8,7 @@
   right: 0;
 }
 
-@media (width <= 500px) {
+@media (width < 450px) {
   .container {
     display: none;
   }

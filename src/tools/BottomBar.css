@@ -9,7 +9,7 @@
   border-radius: 2.5px;
 }
 
-@media (width <= 500px) {
+@media (width < 450px) {
   .bar {
     display: none;
   }

@@ -25,9 +25,10 @@
   text-align: center;
 }
 
-@media (width > 500px) {
+@media (width >= 450px) {
   .content {
-    height: 852px;
+    height: calc(100% - 60px);
+    max-height: 852px;
     overflow: auto;
   }
 
