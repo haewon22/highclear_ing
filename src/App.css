@@ -1,5 +1,5 @@
 .title {
-  margin: 60px 0px 0px 30px;
+  margin-top: 60px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -9,7 +9,7 @@
 }
 
 .description {
-  margin: 20px 0px 0px 30px;
+  margin-top: 20px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -25,11 +25,17 @@
   text-align: center;
 }
 
+.content {
+  margin: 30px;
+}
+
 @media (width >= 450px) {
   .content {
-    height: calc(100% - 60px);
-    max-height: 852px;
+    margin-top: 60px;
+    height: calc(100vh - 90px - 60px);
+    max-height: calc(852px - 30px - 60px);
     overflow: auto;
+    border-radius: 30px;
   }
 
   .content::-webkit-scrollbar {
@@ -38,9 +44,5 @@
 
   Header {
     margin-top: 60px;
-  }
-
-  .title {
-    margin: 120px 0px 0px 30px;
   }
 }
