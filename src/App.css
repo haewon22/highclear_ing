@@ -1,5 +1,5 @@
 .title {
-  margin-top: 60px;
+  margin: 60px 0px 0px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -9,20 +9,13 @@
 }
 
 .description {
-  margin-top: 20px;
+  margin: 20px 0px 0px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: white;
-}
-
-.figure {
-  margin-top: 28px;
-  height: 30px;
-  background: red;
-  text-align: center;
 }
 
 .content {
