@@ -1,0 +1,122 @@
+.title {
+    margin: 60px 0px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: white;
+}
+
+.description {
+    margin: 20px 0px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34.75px;
+    color: white;
+
+    width: 209px;
+    height: 91px;
+    top: 166px;
+    left: 30px;
+}
+
+.content {
+    margin: 30px;
+}
+
+@import url('https://fonts.cdnfonts.com/css/abril-fatface');
+
+
+.signin {
+    position: absolute;
+    width: 127px;
+    height: 54px;
+    top: 205px;
+    left: 54px;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53.96px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000A13;
+}
+
+.LoginButton {
+    position: relative;
+    width: 285px;
+    height: 50px;
+    top: 25px;
+    border-radius: 25px;
+    background-color: #000A13;
+    color: white;
+    border: transparent;
+
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.txt {
+    position: absolute;
+    top: 299px;
+    left: 54px;
+}
+
+.txtarea {
+    padding: 0px 20px;
+    position: relative;
+    height: 50px;
+    width: calc(285px - 40px);
+    border-radius: 25px;
+    border-color: white;
+    background-color: white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: none;
+    outline: none;
+    caret-color: gray;
+}
+
+.backgr {
+    min-height: 100vh;
+}
+
+@media (width >=450px) {
+    .content {
+        margin: 60px 0px 0px;
+        padding-bottom: 30px;
+        height: calc(100vh - 90px - 60px);
+        max-height: calc(852px - 30px - 60px);
+        overflow: auto;
+        border-radius: 60px;
+    }
+
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .backgr {
+        border-radius: 60px;
+        min-height: calc(100vh - 60px);
+    }
+
+    Header {
+        margin-top: 60px;
+    }
+
+    .signin {
+        top: 235px;
+    }
+
+    .txt {
+        top: 329px;
+    }
+}

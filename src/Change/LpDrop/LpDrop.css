@@ -1,0 +1,76 @@
+._ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.LpDropDown{
+    position: absolute;
+    width: 75px;
+    height: 110px;
+    top: 55px;
+    border-radius: 25px;
+    border: 1px;
+
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    border-color: white;
+    
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    line-height: 30px;
+    letter-spacing: 0em;
+    overflow: scroll;
+    z-index: 10;
+}
+
+.LpDropDown::-webkit-scrollbar{
+    display: none;
+}
+
+.lp{
+    position: absolute;
+    width: 50px;
+    height: 17px;
+    top: 16px;
+    left: 17px;
+  
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    font-size: 12px;
+    line-height: 17.38px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.arrow_lp_up{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 24px;
+    left: 71px;
+    content: '';
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(315deg);
+    color: #000A13;
+  }
+  
+  .arrow_lp_down{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 21px;
+    left: 71px;
+    content: '';
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(135deg);
+    color: #000A13;
+  }  

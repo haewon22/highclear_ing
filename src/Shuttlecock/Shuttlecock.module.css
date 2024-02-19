@@ -1,0 +1,248 @@
+.title {
+    margin: 60px 0px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: white;
+}
+
+.content {
+    margin: 30px;
+}
+
+.table {
+    position: relative;
+    margin-top: 28px;
+    height: calc(100vh - 30px - 260px);
+    border-radius: 30px;
+}
+
+.table3 {
+    height: calc(100vh - 30px - 205px);
+}
+
+.table_background {
+    position: relative;
+    background: white;
+    padding-top: 50px;
+    height: calc(100vh - 30px - 260px - 50px);
+    border-radius: 30px;
+    overflow: auto;
+}
+
+.table3_background {
+    height: calc(100vh - 30px - 205px - 50px);
+}
+
+.form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_div {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 0px;
+    width: calc(50% - 10px);
+    height: 50px;
+    border-radius: 25px;
+    background: white;
+}
+
+.form_input {
+    width: calc(50% - 10px - 20px);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.prefix {
+    margin-left: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 7.5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+}
+
+.table_header {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background: #77D6B4;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.table_header_text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+    color: white;
+}
+
+.header_name {
+    position: absolute;
+    left: 80px;
+    transform: translate(-50%, 0%);
+}
+
+.header_green {
+    position: absolute;
+    right: 160px;
+    transform: translate(50%, 0%);
+}
+
+.header_red {
+    position: absolute;
+    right: 80px;
+    transform: translate(50%, 0%);
+}
+
+.header_day {
+    position: absolute;
+    left: 60px;
+}
+
+.header_num {
+    position: absolute;
+    right: 120px;
+    transform: translate(50%, 0%);
+}
+
+.header_remain {
+    position: absolute;
+    right: 50px;
+    transform: translate(50%, 0%);
+}
+
+.body_name {
+    position: absolute;
+    left: 80px;
+    transform: translate(-50%, 0%);
+}
+
+.body_green {
+    position: absolute;
+    right: 160px;
+    transform: translate(50%, 0%);
+}
+
+.body_red {
+    position: absolute;
+    right: 80px;
+    transform: translate(50%, 0%);
+}
+
+.body_icon {
+    padding: 10px;
+    position: absolute;
+    right: 5px;
+}
+
+.body_day {
+    position: absolute;
+    left: 60px;
+}
+
+.body_num {
+    position: absolute;
+    right: 120px;
+    transform: translate(50%, 0%);
+}
+
+.body_remain {
+    position: absolute;
+    right: 50px;
+    transform: translate(50%, 0%);
+}
+
+.table_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.table_item_text {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.index {
+    position: absolute;
+    left: 15px;
+    transform: translate(-50%, 0%);
+    font-size: 10px;
+    color: #000A1350
+}
+
+.status {
+    position: absolute;
+    right: 80px;
+    transform: translate(50%, 0%);
+}
+
+@media (width >=450px) {
+    Header {
+        margin-top: 60px;
+    }
+
+    .content {
+        margin-top: 60px;
+        height: calc(100vh - 90px - 60px);
+        max-height: calc(852px - 30px - 60px);
+        overflow: auto;
+        border-radius: 30px;
+    }
+
+    .content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .table {
+        height: calc(100vh - 90px - 60px - 260px);
+    }
+
+    .table_background::-webkit-scrollbar {
+        display: none;
+    }
+
+    .table_background {
+        height: calc(100vh - 90px - 60px - 260px - 50px);
+    }
+
+    .table3 {
+        height: calc(100vh - 90px - 60px - 205px);
+    }
+
+    .table3_background {
+        height: calc(100vh - 90px - 60px - 205px - 50px);
+    }
+}

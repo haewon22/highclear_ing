@@ -1,0 +1,135 @@
+.Mon{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+  margin-top: 20px;
+  z-index: 999;
+}
+
+.Tue{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+  margin-top: 100px;
+  z-index: 998;
+}
+
+.Wed{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+  margin-top: 180px;
+  z-index: 997;
+}
+
+.Thu{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+  margin-top: 260px;
+  z-index: 996;
+}
+
+.Fri{
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0%);
+  margin-top: 340px;
+  z-index: 995;
+}
+
+.mint_a{
+  width: 333px;
+  height: 50px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 1px solid #77D6B4;
+  color: #77D6B4;
+}
+
+.lightgreen_a{
+  width: 333px;
+  height: 50px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 1px solid #96DE98;
+  color: #96DE98;    
+}
+
+.lightgreen_j{
+  width: 333px;
+  height: 50px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 1px solid #96DE98;
+  color:#000A13;
+  background-color: #96DE98;
+}
+
+.mint_j{
+  width: 333px;
+  height: 50px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 1px solid #77D6B4;
+  color:#000A13;
+  background-color: #77D6B4;
+}
+
+.stop_a{
+  width: 333px;
+  height: 50px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 1px solid #888888;
+  color:#888888;
+}
+
+.stop_j{
+  width: 333px;
+  height: 50px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  border: 1px solid #888888;
+  color:#000A13;
+  background-color: #888888;
+}
+
+.day{
+  position: absolute;
+  width: 108px;
+  height: 23px;
+  left: 112px;
+  top: 13px; 
+  
+  font-family: 'Noto Sans KR', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  font-size: 15px;
+  line-height: 23px;
+}
+
+@media (width >= 450px) {
+  .Mon{
+    top: 300px;
+  }
+  
+  .Tue{
+    top: 300px;
+  }
+  
+  .Wed{
+    top: 300px;
+  }
+  
+  .Thu{
+    top: 300px;
+  }
+  
+  .Fri{
+    top: 300px;
+  }
+}

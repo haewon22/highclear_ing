@@ -1,0 +1,95 @@
+.UserDropDown{
+    position: absolute;
+    width: 72px;
+    top: 55px;
+    left: 261px;
+    border-radius: 25px;
+    border: 1px;
+
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    border-color: white;
+    
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    line-height: 20px;
+    letter-spacing: 0em;
+    overflow: scroll;
+    z-index: 999;
+}
+
+.UserDropDown::-webkit-scrollbar{
+    display: none;
+}
+
+.one{
+  height: 35px;
+}
+
+.two{
+  height: 55px;
+}
+
+.three{
+  height: 75px;
+}
+
+.four{
+  height: 95px;
+}
+
+.standard{
+  height: 115px;
+}
+
+._ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.num{
+    position: absolute;
+    width: 25px;
+    height: 17px;
+    top: 16px;
+    left: 278px;
+  
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0em;
+  }
+  
+  .arrow_n_up{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 24px;
+    left: 307px;
+    content: '';
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(315deg);
+  }
+  
+  .arrow_n_down{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 21px;
+    left: 307px;
+    content: '';
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(135deg);
+  }  

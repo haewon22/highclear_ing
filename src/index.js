@@ -1,15 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './index.css';
-import App from './App';
-
-const meta = document.createElement('meta');
-meta.name = "theme-color";
-meta.content = "#000A13";
-// meta.content = "#77D6B4";
-document.getElementsByTagName('head')[0].appendChild(meta);
+import AdminHome from './AdminHome/AdminHome';
+import UserHome from './UserHome/UserHome';
+import Excel from './Excel/Excel';
+import Login from './Login/Login';
+import Inquiry from './Inquiry/inquiry';
+import Password from './Password/Password';
+import Change from './Change/Change';
+import UserAtt from './UserAtt/UserAtt';
+import AdminAtt from './AdminAtt/AdminAtt';
+import Shuttlecock from './Shuttlecock/Shuttlecock';
+import DailyAtt from './DailyAtt/DailyAtt';
+import ModifyAtt from './ModifyAtt/ModifyAtt';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/userhome" element={<UserHome />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/excel" element={<Excel />} />
+      <Route path="/inquiry" element={<Inquiry />} />
+      <Route path="/password" element={<Password />} />
+      <Route path="/change" element={<Change />} />
+      <Route path="/useratt" element={<UserAtt />} />
+      <Route path="/adminatt" element={<AdminAtt />} />
+      <Route path="/shuttlecock" element={<Shuttlecock />} />
+      <Route path="/dailyatt" element={<DailyAtt />} />
+      <Route path="/modifyatt" element={<ModifyAtt />} />
+      <Route path="/adminhome" element={<AdminHome />} />
+    </Routes>
+  </BrowserRouter>
 );
+
