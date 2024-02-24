@@ -1,3 +1,6 @@
+# This is the attendance webpage for the badminton club Highclear🏸
+## Team Project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
